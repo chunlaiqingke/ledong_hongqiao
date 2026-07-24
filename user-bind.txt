@@ -1,0 +1,37 @@
+POST https://stmember.styd.cn/v2/user/bind? HTTP/1.1
+Host: stmember.styd.cn
+Connection: keep-alive
+Content-Length: 392
+client-timezone: +0800
+brand-code: n9Lk2rX52Nz
+xweb_xhr: 1
+shop-id: 3691365947604836
+theme-compatible: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI MiniProgramEnv/Windows WindowsWechat/WMPF WindowsWechat(0x63090a13) UnifiedPCWindowsWechat(0xf2541a1f) XWEB/19921
+mina-version: independent
+Content-Type: application/json
+app-id: mina
+wx-token: 3WZ6PZ5P0RW_Glf4hyFAfGTOkpVBFsmy
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://servicewechat.com/wx28e6b769802e5485/3/page-frame.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+{"shop_id":3691365947604836,"iv":"+DPpIZwy4uWGYCtEVvBvbA==","name":"微信用户","encrypted_data":"t/VlMhPF+PwyxLVf8YCGP9NAuDDghW7lOI7QZnr+lCcJ9J61dTQL+FlYHyFv8/ccJV5R955q77dmVOgHV00wZokuwv7rU09I2v8Y5mYT5eLDsW1Ktmd3ma4p2CY8wgi5m7Uoy0DdOtehlJG7dlyBgiNOyFFlwBOO+k8AKF+2WSJRBJmK9fjfoj6G8oHAI5AMEelGy49KC2uZhUaoUI3zCQ==","code":"92729b3b2abaa54f848cb53497a6cc1d5bd2e1a7cf45fd5a5c335f0a2c7b6be7"}
+HTTP/1.1 200 OK
+Date: Mon, 15 Jun 2026 04:39:06 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: acw_tc=76b20f8f17814983466924743e2d535ebe10a1752093585bb4b3618e0df75a;path=/;HttpOnly;Max-Age=1800
+Server: openresty
+X-Powered-By: PHP/7.1.24
+X-Request-Id: e37ee10c8522f69aeb2c9ed423f64a76
+
+6f
+{"code":0,"msg":"success","data":{"member_id":3729360302010477,"is_set_info":0},"run_time":0.20856189727783203}
+0
+

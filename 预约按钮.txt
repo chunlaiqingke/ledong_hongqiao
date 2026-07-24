@@ -1,0 +1,37 @@
+POST https://stmember.styd.cn/v2/reserve/submit? HTTP/1.1
+Host: stmember.styd.cn
+Connection: keep-alive
+Content-Length: 438
+client-timezone: +0800
+brand-code: n9Lk2rX52Nz
+xweb_xhr: 1
+shop-id: 3691365947604836
+theme-compatible: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI MiniProgramEnv/Windows WindowsWechat/WMPF WindowsWechat(0x63090a13) UnifiedPCWindowsWechat(0xf2541923) XWEB/19823
+mina-version: independent
+Content-Type: application/json
+app-id: mina
+wx-token: Yfc8Tec-TxF9_8YrPYZb2LDrX6TqA_pZ
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://servicewechat.com/wx28e6b769802e5485/3/page-frame.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+{"schedule_id":0,"coach_id":0,"course_id":0,"seat":[],"consume_type":"wechat","consume_id":"wechat","current_reservation_num":1,"reserve_type":"venues","remark":"","venues_id":"3692735136071785","venues_date":"2026/06/13","venues_site_time":[{"site_id":3713764151656532,"site_name":"学练场1号","start_time":"07:00","start_timestamp":1781305200,"end_timestamp":1781308800,"end_time":"08:00","times":"1","price":"130"}],"activity_id":0}
+HTTP/1.1 400 Bad Request
+Date: Sat, 13 Jun 2026 16:20:00 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: acw_tc=781bad4917813676000266323e934ce788dc11bbddb779194364b01114148e;path=/;HttpOnly;Max-Age=1800
+Server: openresty
+X-Powered-By: PHP/7.1.24
+X-Request-Id: 40be732fc20256981e8dca8c9d182690
+
+71
+{"code":70400,"msg":"预约时间不可小于当前时间","data":{},"msg_type":0,"run_time":0.29410195350646973}
+0
+

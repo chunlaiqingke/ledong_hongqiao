@@ -1,0 +1,37 @@
+POST https://stmember.styd.cn/v2/reserve/submit? HTTP/1.1
+Host: stmember.styd.cn
+Connection: keep-alive
+Content-Length: 432
+client-timezone: +0800
+brand-code: n9Lk2rX52Nz
+xweb_xhr: 1
+shop-id: 3691365947604836
+theme-compatible: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI MiniProgramEnv/Windows WindowsWechat/WMPF WindowsWechat(0x63090a13) UnifiedPCWindowsWechat(0xf2541923) XWEB/19823
+mina-version: independent
+Content-Type: application/json
+app-id: mina
+wx-token: Yfc8Tec-TxF9_8YrPYZb2LDrX6TqA_pZ
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://servicewechat.com/wx28e6b769802e5485/3/page-frame.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+{"schedule_id":0,"coach_id":0,"course_id":0,"seat":[],"consume_type":"wechat","consume_id":"wechat","current_reservation_num":1,"reserve_type":"venues","remark":"","venues_id":"3692708846239935","venues_date":"2026/06/16","venues_site_time":[{"site_id":3692729935134806,"site_name":"1号场","start_time":"17:00","start_timestamp":1781600400,"end_timestamp":1781604000,"end_time":"18:00","times":"1","price":"130"}],"activity_id":0}
+HTTP/1.1 200 OK
+Date: Sat, 13 Jun 2026 17:28:03 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: acw_tc=76b20f7917813716813476352ee9a040256bf5f5acd73910263119f965270c;path=/;HttpOnly;Max-Age=1800
+Server: openresty
+X-Powered-By: PHP/7.1.24
+X-Request-Id: 9614d26a24761e302823b4f2011982c7
+
+377
+{"code":0,"msg":"success","data":{"order_id":3769715378450994,"reserve_id":3769715378450994,"actual_amount":13000,"fail_code":"","fail_msg":"","reserved_not_pay_cancel_seconds":0,"need_wx_pay":1,"wx_pay_data":{"need_pay":1,"order_id":3769715378450994,"sb_order_id":3770371988324390,"pay_price":13000,"appId":"wx28e6b769802e5485","timeStamp":"1781371682","nonceStr":"ce160a6115024010b59101baa8901f44","package":"prepay_id=wx63082254744160bc450000017720263000","signType":"RSA","paySign":"Iibs/8Sfr7/wcGU4NNFJCHugeJdttSQEVLqkMHPVHLj3xgYjBW/SDNHbGbema89ZXsRLfp1CyP/WGV14LZjcJ0CkVjD0s1/9+AGh1oQdHI2KlpGfy1klOisq+jg6Fmu1vdUI3vcpdmOxqKJFPBKojNHNTXxE82iAhQSS+Sn721bXW0su3ZdOlOfFTgkZVMq+r//HY0kcitLXY4mmNVawu7NylosCbbtGPItzJbuMsDpCRF+I1dOfr1FZhL+LL0i217c3ghYeZvxOaxQDYLrLboQUjSgK/5ELwdIR8gQk7ySQvRJiPVyidTmFeNQ+a5SldLq9kp37L5muuD/fk6Ej2w==","group_buy_info_id":0}},"run_time":1.6527810096740723}
+0
+

@@ -1,0 +1,20 @@
+GET https://pingtas.qq.com/pingd?dm=wechat.apps.xx&url=views%2fpages%2fappointment%2findex%3fproduct_id%3d3692708846239935%26product_type%3dvenues&pvi=469071781260421537&si=s53141781260421084&ty=0&r2=500725213&r4=wx&ext=v=1.3.10&adt=microsoft&scl=1&scr=414x716&lg=zh_cn&fl=4.1.9.35&jv=windows%2010%20x64&tz=windows&ct=wifi&rdm=/&rurl=views%2fpages%2fvenues%2forder%3fcurrentdate%3d2026%2f06%2f14&rand=1781368956368 HTTP/1.1
+Host: pingtas.qq.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI MiniProgramEnv/Windows WindowsWechat/WMPF WindowsWechat(0x63090a13) UnifiedPCWindowsWechat(0xf2541923) XWEB/19823
+xweb_xhr: 1
+Content-Type: application/json
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://servicewechat.com/wx28e6b769802e5485/3/page-frame.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+
+HTTP/1.1 200 OK
+Date: Sat, 13 Jun 2026 16:42:36 GMT
+Content-Length: 0
+Connection: keep-alive
+
